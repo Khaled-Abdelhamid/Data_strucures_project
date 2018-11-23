@@ -25,6 +25,7 @@ protected:
 	bool frozen;	//Enemy frozen or not
 	bool active;	//Enemy active or not
 	bool killed;	//Enemy killed or not
+	int reload_period;
 	
 	//
 	// TODO: Add More Data Members As Needed

@@ -1,44 +1,10 @@
-﻿Build started 23-Nov-18 4:03:13 PM.
+﻿Build started 23-Nov-18 9:22:31 PM.
      1>Project "E:\GitHub\Data_strucures_project\DSProject_Code_S2018\CastleDSProject.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc110.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt Battle.cpp Castle\Castle.cpp Castle\Tower.cpp CMUgraphicsLib\auxil.cpp CMUgraphicsLib\CMUgraphics.cpp CMUgraphicsLib\colors.cpp CMUgraphicsLib\image.cpp CMUgraphicsLib\keyqueue.cpp CMUgraphicsLib\mousequeue.cpp CMUgraphicsLib\windowinput.cpp Demo_Main.cpp Enemies\Enemy.cpp GUI\GUI.cpp
-         GUI.cpp
-     1>e:\github\data_strucures_project\dsproject_code_s2018\gui\gui.h(29): warning C4244: 'initializing' : conversion from 'double' to 'const int', possible loss of data
-     1>e:\github\data_strucures_project\dsproject_code_s2018\gui\gui.h(30): warning C4244: 'initializing' : conversion from 'double' to 'const int', possible loss of data
-     1>e:\github\data_strucures_project\dsproject_code_s2018\gui\gui.cpp(151): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
-     1>e:\github\data_strucures_project\dsproject_code_s2018\gui\gui.cpp(152): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
-     1>e:\github\data_strucures_project\dsproject_code_s2018\gui\gui.cpp(153): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
-     1>e:\github\data_strucures_project\dsproject_code_s2018\gui\gui.cpp(154): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
-         Enemy.cpp
-         Demo_Main.cpp
-     1>e:\github\data_strucures_project\dsproject_code_s2018\gui\gui.h(29): warning C4244: 'initializing' : conversion from 'double' to 'const int', possible loss of data
-     1>e:\github\data_strucures_project\dsproject_code_s2018\gui\gui.h(30): warning C4244: 'initializing' : conversion from 'double' to 'const int', possible loss of data
-         windowinput.cpp
-         mousequeue.cpp
-         keyqueue.cpp
-         image.cpp
-     1>e:\github\data_strucures_project\dsproject_code_s2018\cmugraphicslib\image.cpp(115): warning C4018: '<' : signed/unsigned mismatch
-         colors.cpp
-         CMUgraphics.cpp
-     1>e:\github\data_strucures_project\dsproject_code_s2018\cmugraphicslib\cmugraphics.cpp(751): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
-     1>e:\github\data_strucures_project\dsproject_code_s2018\cmugraphicslib\cmugraphics.cpp(1164): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
-     1>e:\github\data_strucures_project\dsproject_code_s2018\cmugraphicslib\cmugraphics.cpp(1171): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
-     1>e:\github\data_strucures_project\dsproject_code_s2018\cmugraphicslib\cmugraphics.cpp(1202): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
-     1>e:\github\data_strucures_project\dsproject_code_s2018\cmugraphicslib\cmugraphics.cpp(1210): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
-     1>e:\github\data_strucures_project\dsproject_code_s2018\cmugraphicslib\cmugraphics.cpp(1357): warning C4018: '>' : signed/unsigned mismatch
-         auxil.cpp
-         Tower.cpp
-         Castle.cpp
-     1>e:\github\data_strucures_project\dsproject_code_s2018\gui\gui.h(29): warning C4244: 'initializing' : conversion from 'double' to 'const int', possible loss of data
-     1>e:\github\data_strucures_project\dsproject_code_s2018\gui\gui.h(30): warning C4244: 'initializing' : conversion from 'double' to 'const int', possible loss of data
-         Battle.cpp
-     1>e:\github\data_strucures_project\dsproject_code_s2018\gui\gui.h(29): warning C4244: 'initializing' : conversion from 'double' to 'const int', possible loss of data
-     1>e:\github\data_strucures_project\dsproject_code_s2018\gui\gui.h(30): warning C4244: 'initializing' : conversion from 'double' to 'const int', possible loss of data
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc110.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt Fighter.cpp Freezer.cpp Healer.cpp
+         Healer.cpp
+         Freezer.cpp
+         Fighter.cpp
          Generating Code...
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc110.pdb" /FR".\Debug\\" /Gd /TC /analyze- /errorReport:prompt CMUgraphicsLib\jpegload.c CMUgraphicsLib\jpeg\jcomapi.c CMUgraphicsLib\jpeg\jcparam.c CMUgraphicsLib\jpeg\jdapimin.c CMUgraphicsLib\jpeg\jdapistd.c CMUgraphicsLib\jpeg\jdatasrc.c CMUgraphicsLib\jpeg\jdcoefct.c CMUgraphicsLib\jpeg\jdcolor.c CMUgraphicsLib\jpeg\jddctmgr.c CMUgraphicsLib\jpeg\jdhuff.c CMUgraphicsLib\jpeg\jdinput.c CMUgraphicsLib\jpeg\jdmainct.c CMUgraphicsLib\jpeg\jdmarker.c CMUgraphicsLib\jpeg\jdmaster.c CMUgraphicsLib\jpeg\jdmerge.c CMUgraphicsLib\jpeg\jdphuff.c CMUgraphicsLib\jpeg\jdpostct.c CMUgraphicsLib\jpeg\jdsample.c CMUgraphicsLib\jpeg\jdtrans.c CMUgraphicsLib\jpeg\jerror.c CMUgraphicsLib\jpeg\jidctflt.c CMUgraphicsLib\jpeg\jidctfst.c CMUgraphicsLib\jpeg\jidctint.c CMUgraphicsLib\jpeg\jidctred.c CMUgraphicsLib\jpeg\jmemmgr.c CMUgraphicsLib\jpeg\jmemnobs.c CMUgraphicsLib\jpeg\jquant1.c CMUgraphicsLib\jpeg\jquant2.c CMUgraphicsLib\jpeg\jutils.c
          jutils.c
@@ -125,13 +91,16 @@
          .\Debug/jutils.obj
          .\Debug/Demo_Main.obj
          .\Debug/Enemy.obj
+         .\Debug/Fighter.obj
+         .\Debug/Freezer.obj
          .\Debug/GUI.obj
+         .\Debug/Healer.obj
      1>Battle.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
          CastleDSProject.vcxproj -> E:\GitHub\Data_strucures_project\DSProject_Code_S2018\.\Debug\CastleDSProject.exe
        BscMake:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\bscmake.exe /nologo /o".\Debug/CastleDSProject.bsc" .\Debug\Battle.sbr .\Debug\Castle.sbr .\Debug\Tower.sbr .\Debug\auxil.sbr .\Debug\CMUgraphics.sbr .\Debug\colors.sbr .\Debug\image.sbr .\Debug\jpegload.sbr .\Debug\keyqueue.sbr .\Debug\mousequeue.sbr .\Debug\windowinput.sbr .\Debug\jcomapi.sbr .\Debug\jcparam.sbr .\Debug\jdapimin.sbr .\Debug\jdapistd.sbr .\Debug\jdatasrc.sbr .\Debug\jdcoefct.sbr .\Debug\jdcolor.sbr .\Debug\jddctmgr.sbr .\Debug\jdhuff.sbr .\Debug\jdinput.sbr .\Debug\jdmainct.sbr .\Debug\jdmarker.sbr .\Debug\jdmaster.sbr .\Debug\jdmerge.sbr .\Debug\jdphuff.sbr .\Debug\jdpostct.sbr .\Debug\jdsample.sbr .\Debug\jdtrans.sbr .\Debug\jerror.sbr .\Debug\jidctflt.sbr .\Debug\jidctfst.sbr .\Debug\jidctint.sbr .\Debug\jidctred.sbr .\Debug\jmemmgr.sbr .\Debug\jmemnobs.sbr .\Debug\jquant1.sbr .\Debug\jquant2.sbr .\Debug\jutils.sbr .\Debug\Demo_Main.sbr .\Debug\Enemy.sbr .\Debug\GUI.sbr
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\bscmake.exe /nologo /o".\Debug/CastleDSProject.bsc" .\Debug\Battle.sbr .\Debug\Castle.sbr .\Debug\Tower.sbr .\Debug\auxil.sbr .\Debug\CMUgraphics.sbr .\Debug\colors.sbr .\Debug\image.sbr .\Debug\jpegload.sbr .\Debug\keyqueue.sbr .\Debug\mousequeue.sbr .\Debug\windowinput.sbr .\Debug\jcomapi.sbr .\Debug\jcparam.sbr .\Debug\jdapimin.sbr .\Debug\jdapistd.sbr .\Debug\jdatasrc.sbr .\Debug\jdcoefct.sbr .\Debug\jdcolor.sbr .\Debug\jddctmgr.sbr .\Debug\jdhuff.sbr .\Debug\jdinput.sbr .\Debug\jdmainct.sbr .\Debug\jdmarker.sbr .\Debug\jdmaster.sbr .\Debug\jdmerge.sbr .\Debug\jdphuff.sbr .\Debug\jdpostct.sbr .\Debug\jdsample.sbr .\Debug\jdtrans.sbr .\Debug\jerror.sbr .\Debug\jidctflt.sbr .\Debug\jidctfst.sbr .\Debug\jidctint.sbr .\Debug\jidctred.sbr .\Debug\jmemmgr.sbr .\Debug\jmemnobs.sbr .\Debug\jquant1.sbr .\Debug\jquant2.sbr .\Debug\jutils.sbr .\Debug\Demo_Main.sbr .\Debug\Enemy.sbr .\Debug\Fighter.sbr .\Debug\Freezer.sbr .\Debug\GUI.sbr .\Debug\Healer.sbr
      1>Done Building Project "E:\GitHub\Data_strucures_project\DSProject_Code_S2018\CastleDSProject.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:26.64
+Time Elapsed 00:00:16.48

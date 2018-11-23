@@ -143,6 +143,12 @@
     <ClCompile Include="Fighter.cpp">
       <Filter>Enemies</Filter>
     </ClCompile>
+    <ClCompile Include="Healer.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Freezer.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CMUgraphicsLib\auxil.h">
@@ -220,6 +226,12 @@
       <Filter>Enemies</Filter>
     </ClInclude>
     <ClInclude Include="Fighter.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Healer.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Freezer.h">
       <Filter>Enemies</Filter>
     </ClInclude>
   </ItemGroup>

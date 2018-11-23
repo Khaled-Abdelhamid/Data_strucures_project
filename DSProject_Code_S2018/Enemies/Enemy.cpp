@@ -7,7 +7,7 @@ Enemy::Enemy(color r_c, REGION r_region, int d)
 	Region = r_region;
 	SetDistance(d);
 	frozen=false;
-	active=true;
+	active=false;
 	killed=false;
 }
 
@@ -55,3 +55,13 @@ bool Enemy::is_active()
 {
 	return active;
 }
+
+void Enemy::Move()
+{
+}
+
+void Enemy::Act()
+{
+}
+
+
