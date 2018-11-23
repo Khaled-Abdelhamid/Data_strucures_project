@@ -6,6 +6,9 @@ Enemy::Enemy(color r_c, REGION r_region, int d)
 	Clr = r_c;
 	Region = r_region;
 	SetDistance(d);
+	frozen=false;
+	active=true;
+	killed=false;
 }
 
 Enemy::~Enemy()
@@ -39,4 +42,16 @@ void Enemy::SetDistance(int d)
 int Enemy::GetDistance() const
 {
 	return Distance;
+}
+
+
+bool Enemy::is_frozen()
+{
+	return frozen;
+}
+
+
+bool Enemy::is_active()
+{
+	return active;
 }

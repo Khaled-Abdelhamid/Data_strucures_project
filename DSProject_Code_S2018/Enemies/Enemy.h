@@ -3,7 +3,7 @@
 #include "..\Defs.h"
 #include "..\CMUgraphicsLib\CMUgraphics.h"
 
-//Enemies colors for next phases
+//Enemies colors for next phases	
 //You can choose whatever colors you like for your enemies
 const color FIGHTER_CLR = DARKBLUE;
 const color HEALER_CLR = ORANGERED;
@@ -21,6 +21,10 @@ protected:
 	int Distance;	//Horizontal distance between enemy & the tower of its region
 	                //Always positive (ranges from 2 to 60)
 	double Health;	//Enemy health
+
+	bool frozen;	//Enemy frozen or not
+	bool active;	//Enemy active or not
+	bool killed;	//Enemy killed or not
 	
 	//
 	// TODO: Add More Data Members As Needed
@@ -38,14 +42,14 @@ public:
 	void SetDistance(int d);
 	int GetDistance() const;
 
+
 	// Virtual Functions: ----------------
+	virtual void Move() = 0;	//All enemies can move
+	virtual void Act() = 0;	//Acting means fighting or healing
 
-	//virtual void Move() = 0;	//All enemies can move
-	//virtual void Act() = 0;	//Acting means fighting or healing
+	bool is_frozen();
+	bool is_active();
 
-	//
-	// TODO: Add More Member Functions As Needed
-	//
 
 };
 
