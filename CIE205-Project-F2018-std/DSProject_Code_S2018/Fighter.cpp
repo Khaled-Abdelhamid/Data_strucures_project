@@ -15,13 +15,11 @@ void Fighter::Act()
 {
 	
 	int k=0;
-	
-	/*
-	if(health>health/2)  k=1;
+	if(Health>fighter_health/2)  k=1;
 	else   k=0.5;
 		
-	double Healt_deducted=(k/Distance)*power
-	*/
+	double healt_deducted = (k / Distance)*get_power();
+	target->SetHealth(healt_deducted);
 	
 }
 
@@ -35,7 +33,11 @@ void Fighter::Move()
 {
 	if(!is_frozen())
 	{
-		Distance--;
+		DecrementDist();
 	}
 }
 
+void Fighter::set_target(Tower* Tower)
+{
+	target = Tower;
+}

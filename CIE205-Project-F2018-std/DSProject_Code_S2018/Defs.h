@@ -8,9 +8,13 @@
 								// (will be drawn vertical to each other)
 #define MaxEnemyCount 300       // the maximum number of enemies the application can work on
 #define TowerInitHealth 200
+#define fighter_health 30
+#define freezer_health 30
+#define healer_health 30
 
 //The four regions: A, B, C , and D
-enum REGION {	
+enum REGION 
+{	
 	A_REG,
 	B_REG,
 	C_REG,
@@ -38,6 +42,8 @@ struct Point
 {
 	int x;
 	int y;
+
+
 	Point(int a=0, int b=0)	//constructor
 	{ x=a;	y=b;	}
 };

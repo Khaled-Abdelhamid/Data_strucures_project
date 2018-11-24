@@ -7,7 +7,7 @@
 class Fighter : public Enemy
 {
 private:
-
+	Tower* target;
 
 public:
 	Fighter(color r_c, REGION r_region, int d);
@@ -15,5 +15,6 @@ public:
 	void Act();
 	virtual void Move();
 	virtual bool is_frozen();
+	void set_target(Tower* Tower);
 };
 

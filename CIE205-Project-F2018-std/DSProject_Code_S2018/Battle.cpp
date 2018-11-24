@@ -71,7 +71,6 @@ void Battle::Just_A_Demo()
 	Fighter e9(ORANGERED, A_REG, 30); 
 	Fighter e10(DARKBLUE, C_REG, 4);
 	Healer e11(GREEN, A_REG, 20);
-	
 
 	// Adding the enemies to the battle
 	AddEnemy(&e1);

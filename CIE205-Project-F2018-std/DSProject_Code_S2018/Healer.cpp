@@ -14,7 +14,8 @@ Healer::~Healer(void)
 
 void Healer::Act()
 {
-	// here we will refill some health of nearby enemies
+	// here we will refill some health for nearby enemies
+
 }
 
 
@@ -22,11 +23,16 @@ void Healer::Move()
 {
 	if(!is_frozen())
 	{
-		Distance--;
+		DecrementDist();
 	}
 }
 
 bool Healer::is_frozen()
 {
 	return frozen;
+}
+
+void Healer::set_target(Enemy* Target[MaxEnemyCount])
+{
+
 }

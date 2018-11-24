@@ -2,6 +2,7 @@
 
 #include "..\Defs.h"
 #include "..\CMUgraphicsLib\CMUgraphics.h"
+#include "..\Castle\Tower.h"
 
 //Enemies colors for next phases
 //You can choose whatever colors you like for your enemies
@@ -21,7 +22,8 @@ protected:
 	int Distance;	//Horizontal distance between enemy & the tower of its region
 	                //Always positive (ranges from 2 to 60)
 	double Health;	//Enemy health
-	
+	double power;
+
 	int reload_period;
 	bool killed;
 	bool frozen;
@@ -42,6 +44,10 @@ public:
 
 	void SetDistance(int d);
 	int GetDistance() const;
+
+	double get_health();
+	double get_power();
+
 
 	// Virtual Functions: ----------------
 

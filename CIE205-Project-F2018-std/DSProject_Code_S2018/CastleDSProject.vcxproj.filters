@@ -16,6 +16,9 @@
     <Filter Include="Enemies">
       <UniqueIdentifier>{0af33dc2-c49c-4540-b583-4c48cacf990e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Data_structures">
+      <UniqueIdentifier>{d8ae2197-a3b7-4192-aebb-673d46404946}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CMUgraphicsLib\auxil.cpp">
@@ -140,9 +143,18 @@
     <ClCompile Include="Enemies\Enemy.cpp">
       <Filter>Enemies</Filter>
     </ClCompile>
-    <ClCompile Include="Fighter.cpp" />
-    <ClCompile Include="Freezer.cpp" />
-    <ClCompile Include="Healer.cpp" />
+    <ClCompile Include="Data_strutres_in_use\heap\stdafx.cpp">
+      <Filter>Data_structures</Filter>
+    </ClCompile>
+    <ClCompile Include="Fighter.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Freezer.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Healer.cpp">
+      <Filter>Enemies</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CMUgraphicsLib\auxil.h">
@@ -219,8 +231,29 @@
     <ClInclude Include="Enemies\Enemy.h">
       <Filter>Enemies</Filter>
     </ClInclude>
-    <ClInclude Include="Fighter.h" />
-    <ClInclude Include="Freezer.h" />
-    <ClInclude Include="Healer.h" />
+    <ClInclude Include="Data_strutres_in_use\heap\Heap.h">
+      <Filter>Data_structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Data_strutres_in_use\heap\QueueNode.h">
+      <Filter>Data_structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Data_strutres_in_use\heap\stdafx.h">
+      <Filter>Data_structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Data_strutres_in_use\Queue\Node.h">
+      <Filter>Data_structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Data_strutres_in_use\Queue\Queue.h">
+      <Filter>Data_structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Fighter.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Freezer.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Healer.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

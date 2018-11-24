@@ -270,6 +270,7 @@
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
+    <ClCompile Include="Data_strutres_in_use\heap\stdafx.cpp" />
     <ClCompile Include="Demo_Main.cpp" />
     <ClCompile Include="Enemies\Enemy.cpp" />
     <ClCompile Include="Fighter.cpp" />
@@ -301,6 +302,11 @@
     <ClInclude Include="CMUgraphicsLib\jpeg\jpegint.h" />
     <ClInclude Include="CMUgraphicsLib\jpeg\jpeglib.h" />
     <ClInclude Include="CMUgraphicsLib\jpeg\jversion.h" />
+    <ClInclude Include="Data_strutres_in_use\heap\Heap.h" />
+    <ClInclude Include="Data_strutres_in_use\heap\QueueNode.h" />
+    <ClInclude Include="Data_strutres_in_use\heap\stdafx.h" />
+    <ClInclude Include="Data_strutres_in_use\Queue\Node.h" />
+    <ClInclude Include="Data_strutres_in_use\Queue\Queue.h" />
     <ClInclude Include="Defs.h" />
     <ClInclude Include="Enemies\Enemy.h" />
     <ClInclude Include="Fighter.h" />
