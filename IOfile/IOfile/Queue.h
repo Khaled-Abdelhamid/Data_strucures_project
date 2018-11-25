@@ -111,6 +111,7 @@ public:
 
 	}
 
+	
 	T deque()
 	{
 		if (size <= 0)
