@@ -1,9 +1,9 @@
 #include "Fighter.h"
 
 
-Fighter::Fighter(color r_c, REGION r_region, int d):Enemy( r_c,  r_region,d)
+Fighter::Fighter(color r_c, REGION r_region, int d,int reload):Enemy( r_c,  r_region,d)
 {
-	reload_period=3;
+	reload_period= reload;
 }
 
 
