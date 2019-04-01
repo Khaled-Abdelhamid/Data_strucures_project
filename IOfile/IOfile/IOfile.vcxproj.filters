@@ -35,11 +35,5 @@
     <ClCompile Include="IOfile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="File_io.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="generate.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
